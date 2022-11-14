@@ -8,6 +8,8 @@ As a web developer,
   - so that I can optimize my web application’s performance and ensure that I'm adhering to accessibility standards.
 - I want to store all of my front-end code in a client folder 
   - so that there is a clear separation between the front end and back end in my application architecture.
+- I want to store all of my back-end code in a server folder 
+  - so that there is a clear separation between the front end and back end in my application architecture.
   
 ## Acceptance Criteria
 
@@ -17,3 +19,6 @@ As a web developer,
 - It is done when I have a client folder at the root of my project.
 - It is done when I have a src folder that contains all of my assets (CSS, images, JavaScript). The src folder is within the client folder.
 - It is done when my client folder has a package.json file.
+- It is done when I have a server folder at the root of my project.
+- It is done when my server folder has its own package.json.
+- It is done when I have used Express.js to create a server that has one GET route that serves the index.html file within the client folder
