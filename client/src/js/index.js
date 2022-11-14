@@ -2,6 +2,13 @@
 import './form';
 import './submit';
 
+// Import CSS files
+import '../css/index.css';
+
+// Import Bootstraps npm modules
+import { Tooltip, Toast, Popover } from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Import images
 import Logo from '../images/logo.png';
 import Bear from '../images/bear.png';
