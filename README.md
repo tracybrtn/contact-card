@@ -10,6 +10,7 @@ As a web developer,
   - so that there is a clear separation between the front end and back end in my application architecture.
 - I want to store all of my back-end code in a server folder 
   - so that there is a clear separation between the front end and back end in my application architecture.
+- I want to have central control of both the back-end and front-end applications from the root using package.json and the Concurrently package.
   
 ## Acceptance Criteria
 
@@ -22,3 +23,6 @@ As a web developer,
 - It is done when I have a server folder at the root of my project.
 - It is done when my server folder has its own package.json.
 - It is done when I have used Express.js to create a server that has one GET route that serves the index.html file within the client folder
+- It is done when I add scripts to the root package.json to navigate the client-server model.
+- It is done when I can identify the role of each package.json file (client, server, root).
+- It is done when I implement the Concurrently package.
