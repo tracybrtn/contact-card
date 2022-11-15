@@ -1,3 +1,5 @@
+const form = document.getElementById("formToggle");
+
 export const toggleForm = () => {
   if (form.style.display === "none") {
     form.style.display = "block";
